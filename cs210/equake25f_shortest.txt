@@ -1,0 +1,10 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2017-10-16T05:28:09.430Z,45.9166667,-123.4611667,24.31,3.38,ml,43,46,0.06977,0.22,uw,uw61342436,2017-10-24T22:18:47.140Z,"21km WNW of Vernonia, Oregon",earthquake,0.3,0.82,0.201,26,reviewed,uw,uw
+2017-10-10T02:45:37.050Z,45.3206667,-121.6861667,6.84,2.75,ml,25,45,0.02276,0.16,uw,uw61339596,2017-10-11T02:48:18.819Z,"23km E of Mount Hood Village, Oregon",earthquake,0.24,0.23,0.188,23,reviewed,uw,uw
+2017-09-26T22:21:58.680Z,44.2518333,-123.9531667,24.14,2.77,ml,20,98,0.1208,0.28,uw,uw61311237,2017-10-26T05:41:15.040Z,"21km SSE of Waldport, Oregon",earthquake,0.45,1.16,0.136,14,reviewed,uw,uw
+2017-09-05T15:48:09.530Z,44.3418333,-124.4218333,25.72,2.82,ml,13,248,0.235,0.21,uw,uw61303577,2017-09-08T21:02:11.102Z,"24km WSW of Waldport, Oregon",earthquake,1.56,0.96,0.285,7,reviewed,uw,uw
+2017-08-26T20:44:09.900Z,44.6125,-124.3365,25.73,2.54,ml,19,120,0.2076,0.1,uw,uw61299252,2017-09-07T03:04:17.040Z,"22km W of Newport, Oregon",earthquake,0.3,0.53,0.125,10,reviewed,uw,uw
+2017-07-11T23:40:24.420Z,44.3798333,-122.4308333,12.4,2.52,ml,22,80,0.1137,0.55,uw,uw61281277,2017-10-06T23:56:15.040Z,"24km E of Sweet Home, Oregon",earthquake,0.84,4.32,0.275,15,reviewed,uw,uw
+2017-07-09T00:27:13.900Z,46.1635,-123.1088333,23.09,2.51,ml,29,70,0.05635,0.17,uw,uw61280487,2017-10-06T23:56:10.040Z,"8km W of West Longview, Washington",earthquake,0.37,0.56,0.113,24,reviewed,uw,uw
+2017-06-01T16:02:57.740Z,45.0576667,-123.0955,22.48,2.96,ml,32,60,0.1947,0.22,uw,uw61272097,2017-09-16T20:03:00.352Z,"9km NW of Keizer, Oregon",earthquake,0.3,0.98,0.125,22,reviewed,uw,uw
+2017-04-15T19:06:43.970Z,44.4392,-124.6165,36.68,2.7,ml,,140,0.393,0.86,us,us10008hyg,2017-07-05T18:10:01.040Z,"43km W of Waldport, Oregon",earthquake,1.8,7.4,0.203,12,reviewed,uw,uw

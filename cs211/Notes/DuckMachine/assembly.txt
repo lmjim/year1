@@ -1,0 +1,58 @@
+"""
+start with two values: x,y
+print the max
+"""
+
+# Max in DM2018W assembler:
+    LOAD r1,x
+    LOAD r2,y
+    SUB r0,r1,r2[0]
+    JUMP/P r1bigger
+    STORE r2,r0,r0[1026]
+    HALT r0,r0,r0
+r1bigger:
+    STORE r1,r0,r0[1026]
+    HALT r0,r0,r0
+x: DATA 32
+y: DATA 17
+
+
+"""Lab Help with Prof. Young:"""
+Loop:
+    LOAD r2,limit           #Line 0
+    LOAD r1,r0,r0[1]        #Line 1
+    ADD r1,r0,r1[1]         #Line 2
+    SUB r0,r1,r2[0]         #Line 3
+    JUMP/N Loop             #Line 4
+    STORE r1,final          #Line 5
+    HALT r0,r0,r0           #Line 6
+limit: DATA 13              #Line 7
+final: DATA                 #Line 8
+
+"""
+symtab:
+{
+loop: 0
+limit: 7
+final: 8
+}
+"""
+
+Loop: LOAD r2,r0,r15[7]
+.
+.
+.
+ADD/N r15,r0,r15[-4]
+"""
+First run through once and note where loop, limit, and final are
+
+Then loop through again
+"""
+
+"""For try in resolve labels:
+If a field has a label then check to see if that label is in the sym table
+then it is a duplication error (error count + 1)
+Otherwise get an address associated with that label in the sym table
+
+Then check to see if the kind is not a comment
+If not, increment the address"""

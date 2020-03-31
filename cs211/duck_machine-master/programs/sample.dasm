@@ -1,0 +1,32 @@
+# Lovingly crafted by robots
+LOAD r1,r0,r15[25]
+LOAD r2,r0,r15[25]
+ADD  r1,r1,r2
+STORE r1,r0,r15[20]
+LOAD r1,r0,r15[23]
+LOAD r2,r0,r15[18]
+MUL  r1,r1,r2
+STORE r1,r0,r15[17]
+loop_6:  #While loop
+LOAD r1,r0,r15[15]
+SUB  r0,r1,r0
+ADD/Z r15,r0,r15[10]
+LOAD r1,r0,r15[12]
+LOAD r2,r0,r15[16]
+SUB  r1,r1,r2
+STORE r1,r0,r15[9]
+LOAD r1,r0,r15[9]
+LOAD r2,r0,r15[12]
+ADD  r1,r1,r2
+STORE r1,r0,r15[6]
+ADD r15,r0,r15[-11]
+endloop_7:
+LOAD r1,r0,r15[4]
+STORE r1,r0,r0[1026] # Print
+HALT  r0,r0,r0
+x_1: DATA 0 #x
+y_4: DATA 0 #y
+const5_2:  DATA 5
+const3_3:  DATA 3
+const4_5:  DATA 4
+const1_8:  DATA 1

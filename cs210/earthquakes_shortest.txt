@@ -1,0 +1,6 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2017-11-15T05:29:32.880Z,36.0645,129.2695,10,5.4,mww,,26,1.537,0.72,us,us2000bnrs,2017-11-15T05:58:33.057Z,"9km WNW of Hoko, South Korea",earthquake,4.6,1.8,0.071,19,reviewed,us,us
+2017-11-15T05:00:39.080Z,-17.4576,-174.6136,149.5,5.2,mb,,56,4.461,1.08,us,us2000bnrf,2017-11-15T05:19:08.040Z,"147km NNW of Neiafu, Tonga",earthquake,9.4,6.4,0.029,398,reviewed,us,us
+2017-11-15T02:02:25.360Z,-59.0385,-17.1484,10,5.3,mb,,59,13.91,0.81,us,us2000bnnl,2017-11-15T02:20:21.040Z,"East of the South Sandwich Islands",earthquake,11.2,1.9,0.069,71,reviewed,us,us
+2017-11-15T00:36:11.860Z,-6.1003,154.4975,57.8,5.4,mb,,69,3,0.78,us,us2000bnmu,2017-11-15T00:52:18.040Z,"111km WNW of Panguna, Papua New Guinea",earthquake,8.2,6.7,0.061,93,reviewed,us,us
+2017-11-15T00:24:33.210Z,13.0671,143.7091,128.63,5.8,mww,,37,1.242,1.04,us,us2000bnmq,2017-11-15T04:20:43.054Z,"106km WSW of Merizo Village, Guam",earthquake,7.8,5.3,0.068,21,reviewed,us,us
